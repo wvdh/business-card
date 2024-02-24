@@ -4,18 +4,26 @@ body {
 }
 
 .avatar {
-    width: 150px;
+    width: 160px;
     border-radius: 100px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-img:hover {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
+.avatar:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 40px);
 }
 
 .card {
-    width: 400px;
+    width: 410px;
     margin: 0 auto;
     padding: 20px;
     display: flex;
@@ -27,4 +35,15 @@ img:hover {
     border-bottom: 8px solid #8E9198;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
- 
+
+.github {
+    background-color: #AF9D85;
+    color: #41443D;
+    width: 20px;
+    border: 1px solid #8E9198;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.github:hover {
+    opacity: 0.6;
+}
